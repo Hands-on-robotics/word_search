@@ -6,7 +6,7 @@ const run = function() { return; };
 const wordSearch = require('../wordsearch.js');
 
 describe("#wordSearch()", function() {
-  it("should return true if word found in 3D array", function() {
+  it("*FEATURE NOT YET IMPLEMENTED* (Would return true if word found in 3D array.) Should return false and fail", function() {
     const result = wordSearch([
       [
         ['G', 'U', 'A', 'L'],
