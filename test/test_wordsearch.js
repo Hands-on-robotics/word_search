@@ -1,12 +1,12 @@
 const chai = require('chai');
 const assert = chai.assert;
 
-const run = function() { return; };
+// const run = function() { return; };
 
 const wordSearch = require('../wordsearch.js');
 
 describe("#wordSearch()", function() {
-  it("*FEATURE NOT YET IMPLEMENTED* (Would return true if word found in 3D array.) Should return false and fail", function() {
+  it("Should return true if word found in 3D array.", function() {
     const result = wordSearch([
       [
         ['G', 'U', 'A', 'L'],
